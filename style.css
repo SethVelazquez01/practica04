@@ -24,7 +24,9 @@
 
 
 
-
+.services {
+  padding: 4rem 0;
+}
 
 .service-grid {
   display: grid;
