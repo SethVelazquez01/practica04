@@ -20,7 +20,12 @@
   padding: 1rem;
 }
 
-
+/* Estructura general */
+header {
+  background-color: var(--dark);
+  color: white;
+  padding: 1rem 0;
+}
 
 .hero {
   display: flex;
