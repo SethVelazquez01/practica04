@@ -1,0 +1,54 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary: #2563eb;
+  --secondary: #1e40af;
+  --light: #f8fafc;
+  --dark: #1e293b;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.contact-form {
+  background-color: var(--light);
+  padding: 4rem 0;
+}
+
+footer {
+  background-color: var(--dark);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
